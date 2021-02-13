@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Goudy Old Style", Serif, cursive;
+  margin: 20px;
+  background-color: #fffff0;
+
+}
+
+.content {
+  flex: 1 0 auto;
+  padding-bottom: 50px;
+}
+
+.title {
+  /*text-transform: uppercase;*/
+  /*text-align: center;*/
+  font-size: 40px;
+}
+
+.container__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*align-items: center;*/
+  background-color: #701a1a;
+  height: 30%
+  color: antiquewhite;
+  /*padding: 20px 20px;*/
+  margin: 1px 0px;
+  min-height: 100px;
+}
+
+.header__title {
+padding: 10px;
+height: 60%;
+}
+
+h1 {
+  color: #ffe140;
+  font-size: 50px;
+  /*padding-left: 30px;*/
+}
+
+.header__subtitle {
+  padding-right: 15px;
+}
+
+h3 {
+  color: #fffff0;
+  font-size: 26px;
+  text-align: right;
+  font-style: italic;
+  padding-top: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  background-color: #081430;
+  /*border-style: solid;
+  border-color: #701a1a;
+  border-width: 2px;*/
+  /*margin: 30px;*/
+  padding: 20px;
+}
+
+.menu__item {
+  color: #fffff0;
+  font-weight: bold;
+  font-size: 20px;
+  transition: transform 0.2s;
+  text-decoration: none;
+}
+
+.menu__item:hover {
+  /*color: black;*/
+  color: #8f2121;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+
+.link__back {
+  color: #081430;
+  text-decoration: none;
+  padding: 10px 10px 10px 2px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.link__back:hover {
+  color: #8f2121;
+  text-decoration: underline;
+}
+
+.recipe__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recipe__img__container {
+  display: flex;
+  justify-content: center;
+  /*border: 2px solid red;*/
+
+}
+.recipe__img {
+  /*border: 2px solid blue;*/
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 400px;
+  min-width: 150px;
+  min-height: 150px;
+  padding: 20px 0px 0px 0px;
+}
+
+.ingredients__container {
+  background-color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  /*border: 1px solid black;*/
+}
+
+.recipe__title {
+  padding: 15px 0px 0px 0px;
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  /*border: solid 2px red;*/
+}
+
+hr {width: 30%;
+margin: auto;
+border-top: 1.5px dotted  #701a1a;
+}
+
+.recipe__description {
+  padding: 15px 0px;
+
+}
+
+.recipe__instructions {
+  /*border: 2px solid green;*/
+}
+
+
+
+.footer {
+  flex-shrink: 0;
+  /*margin-top: -50px;*/
+  background-color: #701a1a;
+  padding: 15px;
+  align-items: baseline;
+}

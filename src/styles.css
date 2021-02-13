@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Goudy Old Style", Serif, cursive;
+  margin: 20px;
+  background-color: antiquewhite;
+}
+
+.header {
+  display: flex;
+  /*align-items: center;*/
+  background-color: #701a1a;
+  /*
+  color: rgb(75, 95, 75);
+  */
+  color: antiquewhite;
+  padding: 20px 20px;
+  margin: 20px 0px;
+  min-height: 100px;
+}
+
+.title {
+  /*text-transform: uppercase;*/
+  /*text-align: center;*/
+  font-size: 40px;
+}
+
+h2 {
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+h3 {
+  color: antiquewhite;
+  font-size: 25px;
+  text-align: right;
+  font-style: italic;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  background-color: antiquewhite;
+  /*border-style: solid;
+  border-color: #701a1a;
+  border-width: 2px;*/
+  margin: 30px;
+  padding: 20px;
+  */
+}
+
+.menu__item {
+  color: #701a1a;
+  font-weight: bold;
+  font-size: 20px;
+  transition: transform 0.2s;
+}
+
+.menu__item:hover {
+  /*color: black;*/
+  color: #8f2121; 
+  text-decoration: none;
+  transform: scale(1.1);
+}
+hr {
+  /*height: 0.5px;*/
+  background-color:;
+  width: 30%;
+  margin: auto;
+  border-top: 1.5px dotted  #701a1a;
+  padding: 30px 0px;
+}
+
+.home_image {
+  display: flex;
+  padding: 50px;
+}
+
+.section__title {
+  display: flex;
+  justify-content: center;  
+  color: #701a1a;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 30%;
+}
+ 
+
+.container__thumbnails {
+  display: flex;
+  justify-content: space-between;
+  background-color: #701a1a;
+  /*background-color: antiquewhite;
+  border: 2px solid rgb(75, 95, 75);*/
+  padding: 10px 20px 80px 20px;
+  border: solid 4px red;
+  margin: 20px 0px;
+}
+
+.thumbnail {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  height: 300px;
+  width: 300px;
+  border: solid 4px green;
+  /* border: 2px solid rgb(75, 95, 75);*/
+}
